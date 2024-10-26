@@ -93,6 +93,12 @@
             "SSLv3",
             "TLSv1",
             "TLSv10"
+        ],
+        "must-not-match": [
+            "TLSv1_2",
+            "TLSv1_3",
+            "TLSv1.2",
+            "TLSv1.3"
         ]
     },
     {
