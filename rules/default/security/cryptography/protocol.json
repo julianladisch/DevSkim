@@ -148,20 +148,6 @@
                 "scopes": [
                     "code"
                 ]
-            },
-            {
-                "pattern": "TLSv1(0|_0)",
-                "type": "regex",
-                "scopes": [
-                    "code"
-                ]
-            },
-            {
-                "pattern": "TLSv1_1",
-                "type": "string",
-                "scopes": [
-                    "code"
-                ]
             }
         ],
         "must-match": [
@@ -176,6 +162,7 @@
             "SSLv2_client"
         ],
         "must-not-match":[
+            "TLSv1X0",
             "TLSv1_2",
             "TLSv1.2",
             "TLSv1_3",
