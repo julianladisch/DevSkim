@@ -82,7 +82,7 @@
         "rule_info": "DS169126.md",
         "patterns": [
             {
-                "pattern": "(SSLv?2|SSLv?3|TLSv?1(?![._][2-9])|TLSv?10)",
+                "pattern": "(SSLv?2|SSLv?3|TLSv?1(?![._][2-9])|TLSv?1[._]?[01])",
                 "type": "RegexWord",
                 "scopes": [
                     "code"
