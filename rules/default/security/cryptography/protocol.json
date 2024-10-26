@@ -159,10 +159,10 @@
             "TLSv11",
             "TLSv1.1",
             "TLSv1_1",
+            "TLSv1X2",
             "SSLv2_client"
         ],
         "must-not-match":[
-            "TLSv1X0",
             "TLSv1_2",
             "TLSv1.2",
             "TLSv1_3",
