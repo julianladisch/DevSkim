@@ -9,4 +9,4 @@ jobs:
     - run: unzip DevSkim_CLI_linux_1.0.33.zip
     - run: head DevSkim_CLI_linux_1.0.33/devskim
     - run: chmod 755 DevSkim_CLI_linux_1.0.33/devskim
-    - run: DevSkim_CLI_linux_1.0.33/devskim validate -s rules/
+    - run: DevSkim_CLI_linux_1.0.33/devskim verify -r rules/
