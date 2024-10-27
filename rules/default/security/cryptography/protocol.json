@@ -163,8 +163,10 @@
             "SSLv2_client"
         ],
         "must-not-match":[
+            "TLSv12",
             "TLSv1_2",
             "TLSv1.2",
+            "TLSv13",
             "TLSv1_3",
             "TLSv1.3"
         ]
