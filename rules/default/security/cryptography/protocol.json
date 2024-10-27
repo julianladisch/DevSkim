@@ -90,9 +90,23 @@
             }
         ],
         "must-match": [
+            "SSLv2",
             "SSLv3",
             "TLSv1",
-            "TLSv10"
+            "TLSv10",
+            "TLSv1_0",
+            "TLSv1.0",
+            "TLSv11",
+            "TLSv1_1",
+            "TLSv1.1"
+        ],
+        "must-not-match": [
+            "TLSv12",
+            "TLSv1_2",
+            "TLSv1.2",
+            "TLSv13",
+            "TLSv1_3",
+            "TLSv1.3"
         ]
     },
     {
@@ -154,11 +168,21 @@
             "SSLv3",
             "TLSv1",
             "TLSv10",
+            "TLSv1.0",
+            "TLSv1_0",
+            "TLSv11",
+            "TLSv1.1",
+            "TLSv1_1",
+            "TLSv1X9",
             "SSLv2_client"
         ],
         "must-not-match":[
+            "TLSv12",
             "TLSv1_2",
-            "TLSv1_3"
+            "TLSv1.2",
+            "TLSv13",
+            "TLSv1_3",
+            "TLSv1.3"
         ]
     },
     {
